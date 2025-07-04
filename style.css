@@ -1,0 +1,46 @@
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+    font-size: 15px;
+    color: #68778d
+}
+
+body {
+    background-color: rgb(183, 227, 241);
+}
+
+#qr-container {
+    width: 350px;
+    height: 550px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.qr-code-img img {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.qr-code-img {
+    text-align: center;
+    
+}
+
+#text {
+    text-align: center;
+    padding: 0 1.3rem;
+}
+
+h2 {
+    color: #1f3251;
+}
