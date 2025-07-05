@@ -44,3 +44,20 @@ body {
 h2 {
     color: #1f3251;
 }
+
+/* 
+
+Media Queries
+*/
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    #qr-container {
+        margin-top: 2.0rem;
+        width: 90%;
+    }
+    
+}
