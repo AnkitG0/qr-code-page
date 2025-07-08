@@ -6,12 +6,12 @@
 }
 
 p {
-    font-size: 15px;
+    font-size: 1rem;
     color: #68778d
 }
 
 body {
-    background-color: rgb(183, 227, 241);
+    background-color: #d6e2f0;
 }
 
 #qr-container {
@@ -19,10 +19,10 @@ body {
     height: 550px;
     background-color: white;
     border-radius: 15px;
-    margin-top: 7rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
 }
 
 .qr-code-img img {
